@@ -1,5 +1,5 @@
 {
-    "name": "churchtools-plugin-template",
+    "name": "churchtools-plugin-publisher",
     "private": true,
     "version": "0.0.0",
     "type": "module",
@@ -10,20 +10,36 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "@tanstack/vue-query": "^5.14.4",
+        "file-saver": "^2.0.5",
+        "konva": "^9.3.0",
         "pinia": "^2.0.36",
+        "qr-code-styling": "^1.6.0-rc.1",
+        "simplebar": "^6.2.5",
         "vue": "^3.2.47",
-        "vue-router": "^4.1.6"
+        "vue-konva": "^3.0.2"
     },
     "devDependencies": {
         "@churchtools/churchtools-client": "^1.3.7",
+        "@churchtools/colors": "^0.1.0",
+        "@churchtools/styleguide": "^0.60.9",
+        "@churchtools/utils": "^0.4.5",
+        "@types/file-saver": "^2.0.7",
         "@types/node": "^20.1.2",
         "@vitejs/plugin-vue": "^5.0.4",
         "@vue/eslint-config-prettier": "^9.0.0",
         "@vue/eslint-config-typescript": "^13.0.0",
+        "@vueuse/core": "^10.7.0",
+        "autoprefixer": "^10.4.16",
+        "colorthief": "^2.4.0",
         "eslint": "^8.56.0",
         "eslint-config-prettier": "^9.0.0",
         "eslint-plugin-vue": "^9.12.0",
+        "postcss-nesting": "^12.0.2",
         "prettier": "^3.0.3",
+        "prettier-plugin-organize-imports": "^3.2.4",
+        "prettier-plugin-tailwindcss": "^0.5.9",
+        "tailwindcss": "^3.4.0",
         "typescript": "^5.0.2",
         "vite": "^5.0.13",
         "vite-plugin-eslint": "^1.8.1",
@@ -33,7 +49,6 @@
         "> 0.5%",
         "last 2 versions",
         "not ie <= 11",
-        "ios_saf >= 12.2",
         "not dead",
         "not op_mini all"
     ]
